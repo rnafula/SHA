@@ -1,3 +1,6 @@
+body{
+      font-family: 'Poppins', sans-serif;
+}
 .hero-section{
     display:flex;
     flex-direction:row;
@@ -16,37 +19,62 @@
     text-decoration: none;
     color:black;
 }
-.header-select{
+/* .header-select{
     
     gap:15px;
     padding: 9px;
     
-}
-.related-sites{
+} */
+/* .related-sites{
     background-color: rgb(12, 84, 147);
     border-radius: 12px;
     padding: 5px;
     color:whitesmoke;
     width:35%;
 
-}
-.register{
+} */
+/* .register{
 
      background-color: rgb(12, 84, 147);
      border-radius: 12px;
         padding: 5px;
         color:whitesmoke;
         width:28%;
-}
-.header-select button{
+} */
+/* .header-select button{
     background-color: whitesmoke;
      border-radius: 12px;
      border:1px solid blue;
      padding: 5px;
      color:blue;
      width:25%;
+} */
+.header-select{
+    padding:8px;
 }
+.related-sites{
+    background-color: rgb(38, 85, 161);
+    color:white;
+    border-radius: 15px;
+    padding:5px;
+    width:35%;
+}
+.register{
+    background-color: rgb(38, 85, 161);
+    color:white;
+    border-radius: 15px;
+    padding:5px;
+    width:28%
 
+}
+.header-select button{
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 15px;
+    color:rgb(38, 85, 161);
+    padding:5px;
+    border:1px solid  rgb(38, 85, 161);
+     width:23%
+}
 .image-container img{
     display:block;
     width:115%;
@@ -55,7 +83,8 @@
    padding-top: 80px;
    margin-left: 30px;
     width:30%;
-  /*   margin-bottom:100px; */
+/*     padding-bottom:100px; */
+  margin-bottom:100px; 
 
 } 
 
@@ -67,7 +96,7 @@
       background-image: url(images/imgi_37_hero.png);
       background-size:cover;
       width:100%;
-      height:100vh;
+      height:300px;
       
 }
 .introduction{
@@ -82,16 +111,52 @@
 .register-button{
     width:35%;
     border: 1px solid white;
-    background-color: rgba(14, 14, 155, 0);
+    background-color: rgba(21, 21, 146, 0);
     color:white;
     border-radius: 15px;
     padding:5px;
 }
-
-/* .overview{
+.overview{
     background-image: url(/images/imgi_38_overview.png);
-    background-size:cover;
-      width:94%;
-      height:50vh;
-      padding:30px;
-} */
+    background-size: cover;
+    width:100%;
+    height: 300px;
+    padding:15px;
+    
+}
+
+ .overview-heading{
+    color:#1648bb;
+    font-weight:500;
+    font-size:20px;
+ }
+ .overview-flex{
+    display:flex;
+    gap:10px;
+ }
+ .overview-intro{
+    width:50%;
+    font-weight: 400;
+ }
+ .overview-content{
+    width:50%;
+    color:rgb(43, 43, 43);
+    font-size:12px;
+ }
+ .benefits{
+width: 90%;
+    
+ }
+ .benefits-heading {
+    width:50%;
+    
+ }
+ .benefits-image {
+    width:50%;
+    
+    
+ }
+ .benefits-image img{
+    width:100%;
+
+ }
