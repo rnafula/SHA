@@ -88,7 +88,7 @@ body{
 .overview{
     background-image: url(/images/imgi_38_overview.png);
     background-size: cover;
-    width:100%;
+    width:98%;
     height: 300px;
     padding:15px;
     
@@ -113,19 +113,124 @@ body{
     font-size:12px;
  }
  .benefits{
-width: 90%;
+  
+    display:flex;
+    flex-direction: row; 
+    width: 100%;
+    justify-content: space-between;
+    align-items:center;
     
  }
  .benefits-heading {
     width:50%;
     
  }
+ .benefits-heading h2{
+    color:#0047BA;
+ } 
+
  .benefits-image {
     width:50%;
+    background-color: rgb(146, 127, 146);
     
     
  }
  .benefits-image img{
     width:100%;
 
+
+ }
+ .registration{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+ .registration-text{
+    width:50%;
+ }
+ .registration-text h2{
+   color:#0047BA;  
+ }
+ .registration-image{
+    width:50%;
+ }
+  .registration-image img{
+    width:100%;
+ }
+/* web registration */
+.web-reg{
+    width: 95%;
+    background-color: whitesmoke;
+    margin:10px auto;
+    border-radius: 8px;
+    padding:8px;
+}
+.web-reg h2{
+    text-align: center;
+    color: #0047BA;
+}
+
+.web-reg ul{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.web-reg a{
+    text-decoration: none;
+    color:#0047BA;
+    
+}
+.web-reg a:hover{
+    border-bottom:2px solid #0047BA;
+}
+.steps{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+      
+       align-items: center;
+}
+.steps div{
+    width:45%;
+}
+.steps div img{
+    width:100%;
+}
+ .steps span{
+    display:inline-block;
+    background-color: #0047ba;
+    width:20px;
+    height:20px;
+    padding: 2px;
+    margin:2px;
+    border-radius:50%;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+
+} 
+ 
+ /* responsiveness styling */
+ .menu{
+    display:none;
+ }
+ @media (max-width:600px) {
+
+.header-select{
+    display:none;
+}
+nav{
+    display:none;
+}
+.menu{
+    display:block;
+}
+.hero-section{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around ;
+}
+    
  }

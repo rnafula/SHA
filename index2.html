@@ -9,9 +9,33 @@
             background-color: blueviolet;
             border-radius: 50%;
         }
+ /*    .rotate-image {
+  transition: transform 1s ease; 
+}
+
+.rotate-image:hover {
+  transform: rotate(360deg);
+} */
+
+
+  .rotate-image {
+  animation: image 5s linear infinite;
+}
+
+/* Define the animation */
+@keyframes image {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media (max-width:600px){
+    
+    
+}
+
+
     </style>
 </head>
 <body>
-    <img src="/images/imgi_2_benefits.png" alt="" width="100px" height="100px">
+    <img src="images/imgi_2_benefits.png" class="rotate-image" alt="" width="100px" height="100px">
 </body>
 </html>
