@@ -245,7 +245,13 @@ body{
     width: 25%;
     padding:9px;
 }
- 
+.bold{
+    font-weight: bold;
+}
+.color{
+     color:#0047BA;
+
+}
  /* responsiveness styling */
  .menu{
     display:none;
