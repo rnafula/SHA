@@ -358,9 +358,11 @@ nav{
  }
  .registration-text{
     width:100%;
+    order:1;
  }
  .registration-image{
     width:100%;
+    order:2;
  }
  .web-reg{
     width: 100%;
